@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/grid.css">
+    <link rel="stylesheet" href="./styles/nav.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Satisfy" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <title>Inicio</title>
+</head>
+<body>
+    <header class="header">
+        <h1 class="title">Mila Santos</h1>
+        <div id="title-image-animated" class="title-img"></div>
+        <p class="title-cite">
+            Estudiante de Bellas Artes
+        </p>
+
+    </header>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li class="navbar-item active">
+                <a href="index.html">Inicio</a>
+            </li>
+            <li class="navbar-item">
+                <a href="index.html#quien-soy">Quien soy</a>
+            </li>
+            <li class="navbar-item">
+                <a href="index.html#estudios">Estudios</a>
+            </li>
+            <li class="navbar-item">
+                <a href="index.html#obras">Obras</a>
+            </li>
+            <li class="navbar-item">
+                <a href="index.html#sobre-mi">Sobre mi</a>
+            </li>
+            <li class="navbar-item">
+                <a href="contacto.html">Contacto</a>
+            </li>
+        </ul>
+    </nav>
+    
+    <main class="main">
+        <section id="quien-soy" class="quien-soy clearfix">
+            <div class="info">
+                <h1 class="title">Quien soy</h1>
+                
+                <p>
+                    ¡Hola! Mi nombre es <strong>Mila Santos</strong>, actualmente soy estudiante de 
+                    intercambio SICUE de Bellas artes en la UPV. 
+                    Me interesa el diseño gráfico, la fotografía, el diseño web y la publicidad. 
+                    Esta página es parte de la asignatura <em>Apps y Arte Multimedia</em>.
+                </p>
+            </div>
+
+            <div class="foto-info">
+                <figure>
+                   <img src="./images/foto-perfil.jpeg" alt="">
+                </figure>
+            </div>
+
+        </section>
+
+        
+        <section id="estudios" class="estudios section-container">
+        <!-- estudios -->
+            <h2>Estudios</h2>
+
+                <div class="estudios-info">
+                    <ul id="lista-estudios">
+                        <li class="estudios-item">
+                            <p>Bachillerato en Humanidades y Ciencias Sociales:</p>
+                            <ul>
+                                <li>
+                                    <p><a href="http://www.ies-modesto-navarro.es/joomla2016/index.php" style="text-decoration:none">IES Modesto Navarro</a></p>
+                                </li>
+                            </ul>
+                        </li>
+
+                        <br>
+
+                        <li class="estudios-item">
+                            <p>Grado en Bellas artes:</p>
+                            <ul>
+                                <li>
+                                    <p><a href="http://bellasartes.uclm.es/wp-index.php/" style="text-decoration:none">Universidad de Castilla la Mancha</a></p>
+                                </li>
+                                <li>
+                                    <p><a href="http://www.art.mmu.ac.uk/" style="text-decoration:none">Manchester Metropolitan University</a></p> 
+                                </li>
+                                <li>
+                                    <p><a href="http://www.upv.es/entidades/BBAA/index-es.html" style="text-decoration:none">Universidad Politécnica de Valencia</a></p>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="estudios-info">
+                    <ul class="estidios-list idioma">
+                        <li class="estudios-item">
+                            <p>Inglés nivel B2</p>
+                        </li>
+                    </ul>
+                </div>
+
+        </section>
+
+        <section id="obras" class="obras section-container">
+        <!-- obras -->
+            <div class="row-obras">
+            
+                <article class="obra-item">
+                    <header>
+                        <a href="./obras/punk.html" style="text-decoration:none">Punk Project</a>
+                    </header>
+                    <a href="./obras/punk.html">
+                        <figure class="obra-item-photo">
+                            <div class="flip">
+                                <div class="front flip-img">
+                                    <img src="./images/punk/punk-miniatura.jpg" alt="">
+                                </div>
+                                <div class="back flip-img">
+                                    <img src="./images/punk/punk-miniatura2.jpg" alt="">
+                                </div>
+                            </div>
+                        </figure>
+                    </a>
+                </article>
+
+
+                <article class="obra-item">
+                    <header>
+                        <a href="./obras/collages.html" style="text-decoration:none">Collages</a>
+                    </header>
+                    <a href="./obras/collages.html">
+                        <figure class="obra-item-photo">
+                            <div class="flip">
+                                <div class="front flip-img">
+                                    <img src="./images/collages/collage-miniatura.jpg" alt="">
+                                </div>
+                                <div class="back flip-img">
+                                    <img src="./images/collages/collage-miniatura2.jpg" alt="">
+                                </div>
+                            </div>
+                        </figure>
+                    </a>
+                </article>
+
+
+                <article class="obra-item">
+                    <header>
+                        <a href="./obras/foto.html" style="text-decoration:none">Fotografía</a>
+                    </header>
+                    <a href="./obras/foto.html">
+                        <figure class="obra-item-photo">
+                            <div class="flip">
+                                <div class="front flip-img">
+                                    <img src="./images/foto/foto-miniatura.jpg" alt="">
+                                </div>
+                                <div class="back flip-img">
+                                    <img src="./images/foto/foto-miniatura2.jpg" alt="">
+                                </div>
+                            </div>
+                        </figure>
+                    </a>
+                </article>
+            
+
+            </div>
+        </section>
+        
+        <section id="sobre-mi" class="sobre-mi section-container">
+
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/4MCjU-Du3eI" 
+                    frameborder="0" allowfullscreen>
+                </iframe>
+            </div>
+
+            <p>
+              Entre mis aficiones está el cine, las series de televisión, la musica y viajar.
+              <br>
+              En el video se ve a Lindsey Stirling, una de mis artistas favoritas. Me parece bastante interesante 
+              tanto su fusión de violín con musica que no tiene nada que ver con lo clasico como su caracterización y puesta en escena
+            </p>
+        
+<!--
+            <figure class="obra-item-yo col-4">
+                <div class="flip">
+                    <div class="front flip-img">
+                        <img src="./images/foto-sobremi2.jpeg" alt="">
+                    </div>
+                    <div class="back flip-img">
+                        <img src="./images/foto-sobremi.jpeg" alt="">
+                    </div>
+                </div>
+            </figure>
+ -->
+            
+        </section>
+            
+    </main>
+    <footer>
+        Mila Santos &copy 2017 bbaa
+    </footer>
+
+</body>
+
+</html>
